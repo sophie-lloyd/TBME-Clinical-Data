@@ -1,6 +1,6 @@
-from .classes import Data
+from .classes import Data_mat
 
 
 __all__ = [
-    "Data",
+    "Data_mat",
 ]
