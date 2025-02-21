@@ -10,12 +10,14 @@ class Data_mat:
         self,
         path_mat: str,
         lesion_path: str = None,
-        access_name: str = "filteredPatients",
+        access_name: str = "final_filteredPatients",
+        lesion_empty_replacement: str = "Saline",
         prints: bool = True,
     ):
         self.path_mat = path_mat
         self.lesion_path = lesion_path
         self.access_name = access_name
+        self.lesion_empty_replacement = lesion_empty_replacement
         self.prints = prints
 
         self.init_data()
@@ -85,7 +87,7 @@ class Data_mat:
 
             df = pd.read_csv(self.lesion_path)
             df = pd.DataFrame(df)
-            df = df.replace({" ": "None"})
+            df = df.replace({" ": self.lesion_empty_replacement})
             self.df = df
 
             self.case_txt = df["Case"]  # for check
