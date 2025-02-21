@@ -5,7 +5,7 @@ Open source data and code for electrical impedance spectroscopy clinical study
 
 **Reading in the `.mat` data**
 
-There is an [example code](load-data.ipynb) to load the data in Python.
+There is an [example code](load-data.ipynb) to load the data into Python.
 
 If you want to load the data without the [Jupyter](https://jupyter.org/) environment, install the required packages using 
 
@@ -13,7 +13,7 @@ If you want to load the data without the [Jupyter](https://jupyter.org/) environ
 
 and start Python.
 
-Therefore import the provided `Data_mat` class
+Import the provided `Data_mat` class
 
     from util import Data_mat
 
@@ -22,11 +22,11 @@ and set the path to the `.mat` file and the lesion information `.csv` file.
     path_mat = "data/mat/TBME_case_data.mat"
     lesion_path = "data/mat/TBME_Data_lesion_info.csv"
 
-To finally load the data initialize the class and paste the path arguments into it.
+Then to load the data, initialize the class and paste the path arguments in.
 
     data = Data_mat(path_mat, lesion_path, prints=False)
 
-You can access the following information by `data.<information-name>`.
+You can access the following information at `data.<information-name>`.
 
 - Case $\rightarrow$ `data.case`
 - Category $\rightarrow$ `data.category`
@@ -42,7 +42,7 @@ You can access the following information by `data.<information-name>`.
 
 **Reading in the `.npz` data**
 
-For the potential use of each documented individual patient, the data samples were also [converted](data/mat_to_npz.ipynb) in `.npz` files.
+For the potential use of each documented individual sample, the data was also [converted](data/mat_to_npz.ipynb) to `.npz` files.
 
 The syntax for loading a single `.npz` file is
 
