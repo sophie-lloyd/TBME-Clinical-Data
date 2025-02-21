@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: >-
+  TBME-Clinical-Data
+message: >-
+  If you use the provided software or data, please cite it using the
+  metadata from this file.
+authors:
+  - given-names: Sophie
+    family-names: Lloyd
+    email: sophie.lloyd@dartmouth.edu
+    affiliation: Dartmouth College  (Thayer School of Engineering)
+    orcid: 'https://orcid.org/0009-0003-1585-2855'
+  - given-names: Jacob P.
+    family-names: Thönes
+    email: jacob.thoenes@uni-rostock.de
+    affiliation: Universität Rostock (Institute of Communications Engineering)
+    orcid: 'https://orcid.org/0000-0003-2826-5281'
+url: 'https://github.com/sophie-lloyd/TBME-Clinical-Data'
+keywords:
+  - EIT
+  - TBME
+  - Data
+license: MIT
+version: 0.1.0
+date-released: '2025-03-01'
