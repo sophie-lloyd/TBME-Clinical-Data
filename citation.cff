@@ -7,7 +7,7 @@ message: >-
 authors:
   - given-names: Sophie
     family-names: Lloyd
-    email: sophie.lloyd@dartmouth.edu
+    email: sophie.lloyd.th@dartmouth.edu
     affiliation: Dartmouth College  (Thayer School of Engineering)
     orcid: 'https://orcid.org/0009-0003-1585-2855'
   - given-names: Jacob P.
