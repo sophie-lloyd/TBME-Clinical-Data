@@ -26,7 +26,7 @@ Then to load the data, initialize the class and paste the path arguments in.
 
     data = Data_mat(path_mat, lesion_path, prints=False)
 
-You can access the following information at `data.<information-name>`.
+You can access the following information with `data.<information-name>`.
 
 - Case $\rightarrow$ `data.case`
 - Category $\rightarrow$ `data.category`
